@@ -144,8 +144,8 @@
                                      <img src="imagenes/Profesor 111.jpg" alt=""> 
                                 </div>
                                  <div class="product-txt"> 
-                                      <h4>¿Quienes te enseñaran?</h4>
-                                      <p>Profesores especializados</p>
+                                      <h4>Profesor</h4>
+                                      <p></p>
                                       <span class="prefesor">Luis Aquilino Manzo Candela</span>
                                  </div>
                             </div>
@@ -159,8 +159,8 @@
                                      <img src="imagenes/Profesor 222.jpg" alt=""> 
                                 </div>
                                  <div class="product-txt"> 
-                                      <h4>Profesores</h4>
-                                      <p>Profesores especializados</p>
+                                      <h4>Profesor</h4>
+                                      <p></p>
                                       <span class="prefesor">Ebert Bernardo Ocares Luna</span>
                                  </div>
                             </div>
@@ -174,8 +174,8 @@
                                      <img src="imagenes/Profesor 333.jpg" alt=""> 
                                 </div>
                                  <div class="product-txt"> 
-                                      <h4>Profesores</h4>
-                                      <p>Profesores especializados</p>
+                                      <h4>Profesor</h4>
+                                      <p></p>
                                       <span class="prefesor">Jesús Canales</span>
                                  </div>
                             </div>
@@ -189,8 +189,8 @@
                                      <img src="imagenes/profesor 444.jpg" alt=""> 
                                 </div>
                                  <div class="product-txt"> 
-                                      <h4>Profesores</h4>
-                                      <p>Profesores especializados</p>
+                                      <h4>Profesor</h4>
+                                      <p></p>
                                       <span class="prefesor">Miguel Vargas</span>
                                  </div>
                             </div>
@@ -221,7 +221,7 @@
                                      <img src="imagenes/crear pagina web11.jpg" alt=""> 
                                 </div>
                                  <div class="product-txt"> 
-                                      <h4>¿Que aprenderas?</h4>
+                                      <h4>Aprenderas:</h4>
                                       <p>Crear Paginas Webs</p>
                                       <span class="profesores">Te enseñaremos a crear tu propia pagina desde cero</span>
                                  </div>
@@ -236,8 +236,8 @@
                                      <img src="imagenes/coodificar1.jpeg" alt=""> 
                                 </div>
                                  <div class="product-txt"> 
-                                      <h4>¿Que aprenderas?</h4>
-                                      <p>A coodificar codigos</p>
+                                      <h4>Aprenderas:</h4>
+                                      <p>Coodificar codigos</p>
                                       <span class="profesores">Te enseñaremos a coodificar los codigos</span>
                                  </div>
                             </div>
@@ -251,7 +251,7 @@
                                      <img src="imagenes/Lenguajes-scaled (1).jpg" alt=""> 
                                 </div>
                                  <div class="product-txt"> 
-                                      <h4>¿Que aprenderas?</h4>
+                                      <h4>Aprenderas:</h4>
                                       <p>Lenguaje de programacion</p>
                                       <span class="profesores">Te enseñaremos todos los lenguajes de programacion</span>
                                  </div>
@@ -266,7 +266,7 @@
                                      <img src="imagenes/partes de la PC.jpg" alt=""> 
                                 </div>
                                  <div class="product-txt"> 
-                                      <h4>¿Que aprenderas</h4>
+                                      <h4>Aprenderas:</h4>
                                       <p>Partes de la PC</p>
                                       <span class="profesores">Aprenderas a como es una PC por dentro</span>
                                  </div>
@@ -299,7 +299,7 @@
                                 </div>
                                  <div class="product-txt"> 
                                       <h4>Visual Studios</h4>
-                                      <p>Apps utilizadas</p>
+                                      <p></p>
                                       <span class="price">Sabras usar el Visual Code Studios</span>
                                  </div>
                             </div>
@@ -314,7 +314,7 @@
                                 </div>
                                  <div class="product-txt"> 
                                       <h4>Python</h4>
-                                      <p>Apps utilizadas</p>
+                                      <p></p>
                                       <span class="price">Sabras usar Python</span>
                                  </div>
                             </div>
@@ -329,7 +329,7 @@
                                 </div>
                                  <div class="product-txt"> 
                                       <h4>Github</h4>
-                                      <p>Enseñansa sobre el Github</p>
+                                      <p></p>
                                       <span class="price">Sabras usar la pagina Github</span>
                                  </div>
                             </div>
@@ -344,7 +344,7 @@
                                 </div>
                                  <div class="product-txt"> 
                                       <h4>App Script</h4>
-                                      <p>Usos de Apps Script</p>
+                                      <p></p>
                                       <span class="price">Sabras usar Google Apps Script</span>
                                  </div>
                             </div>
