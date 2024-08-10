@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+
+    <header>
+
+        <div class="menu container"> 
+         
+            <img class="logo-1" src="imagenes/logo111.png" alt="">
+             <input type="checkbox" id="menu">
+             <label for="menu">
+                <img src="imagenes/menu.png"  class="menu-icon" alt="">
+             </label> 
+             <nav class="navbar">
+
+                  <div class="menu-1">
+                        <ul>
+                            <li><a href="#">Nosotros</a>
+                            <li><a href="#">Historia</a>
+                            <li><a href="#">Video</a>
+                        </ul>
+                  </div>
+
+                  <img class="logo-2" src="imagenes/logo111.png"   alt="">
+
+                   <div class="menu-2">
+                        <ul>
+                            <li><a href="#">Horario</a>
+                        </ul>
+                        <div class="socials">
+                            <a href="#">
+                                <div class="social">
+                                    <a href=https://www.facebook.com/tecnologiaVG>
+
+                                        <img src="imagenes/s1.svg" alt="">
+                                    </a>
+                                    
+                                </div>
+                            </a>
+                            <a href="#">
+                                <div class="social">
+                                    <img src="imagenes/s2.svg" alt="">
+                                </div>
+                            </a> 
+                            <a href="#">
+                                <div class="social">
+                                    <img src="imagenes/s3.svg" alt="">
+                                </div>
+                            </a>                             
+                        </div>
+                   </div>               
+
+             </nav>
+        </div>
+
+        <div class="header-content container">
+
+            <div class="swiper mySwiper-1">
+              <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="slider">
+                            <div class="slider-txt">
+                                <h1>¿Quienes somos?</h1>
+                                <p>
+                                    Valle Grande es actualmente un Centro de Educación Superior constituido por la Promotora de Obras Sociales y de Instrucción Popular (PROSIP) el 25 de febrero de 1965, reconocido por el Ministerio de Agricultura mediante Resolución Directoral N° 04383-AG-DGAG del 2 de junio de 1983 y por el Ministerio de Educación mediante Resolución Ministerial N°0751-92-ED.
+                                </p>
+                                <div class="botones">
+                                    <a href="#" class="btn-1">Registrarte</a>
+                                    <a href="#" class="btn-1">Iniciar sesion</a>
+                                </div>
+                            </div>
+                            <div class="slider-img">
+                                <img src="imagenes/dentro de valle 3.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="slider">
+                            <div class="slider-txt">
+                                <h1>Misión y Visión</h1>
+                                <p>                                
+                                    Nuestra misión es formar personas en el ámbito técnico profesional, considerando el sentido trascendente del hombre, desarrollando en ellos competencias, que faciliten su inserción laboral, contribuyendo de esta manera al desarrollo del país. Nuesta Visión es ser Ser una institución referente de excelencia de  la educación técnico profesional del Perú, asociada al sector productivo.
+                                </p>
+                                <div class="botones">
+                                    <a href="#" class="btn-1">Registrarte</a>
+                                    <a href="#" class="btn-1">Iniciar sesion</a>
+                                </div>
+                            </div>
+                            <div class="slider-img">
+                                <img src="imagenes/Dentro de valle1.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="slider">
+                            <div class="slider-txt">
+                                <h1>Visitenos en Youtube</h1>
+                                <p>                                    
+                                    Si estas interesado y quieres saber mas de nosotros, puedes ir a nuestro canal de youtube para mas informacion, opniones de nuestos alumnos, ver las herramientas que se usuaran y los tipos de cursos que se enseñaran 
+                                </p>
+                                <div class="botones">
+                                    <a href="#" class="btn-1">Registrarte</a>
+                                    <a href="#" class="btn-1">Iniciar sesion</a>
+                                </div>
+                            </div>
+                            <div class="slider-img">
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/LkzwK0ZfMVs?si=LKoRvEsOiC9lVrLn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                            </div>
+                        </div>
+                    </div>
+              </div>
+              <div class="swiper-button-next"></div>
+              <div class="swiper-button-prev"></div>
+              <div class="swiper-pagination"></div>                
+            </div>
+
+        </div>
+
+    </header>
+
+
+    <main class="profesores">
+        <div class="tabs container">
+
+            <input type="radio" name="tabs" id="tab1" checked="checked" class="tabInput" value="1">
+            <label for="tab1">Profesores</label>
+            
+            <div class="tab">
+                <div class="swiper mySwiper-2" id="swiper1">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+
+                            <div class="product">
+                                <div class="product-img">
+                                     <h4>Nuevo</h4>
+                                     <img src="imagenes/Profesor 111.jpg" alt=""> 
+                                </div>
+                                 <div class="product-txt"> 
+                                      <h4>¿Quienes te enseñaran?</h4>
+                                      <p>Profesores especializados</p>
+                                      <span class="prefesor">Luis Aquilino Manzo Candela</span>
+                                 </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+
+                            <div class="product">
+                                <div class="product-img">
+                                     <h4>Nuevo</h4>
+                                     <img src="imagenes/Profesor 222.jpg" alt=""> 
+                                </div>
+                                 <div class="product-txt"> 
+                                      <h4>Profesores</h4>
+                                      <p>Profesores especializados</p>
+                                      <span class="prefesor">Ebert Bernardo Ocares Luna</span>
+                                 </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+
+                            <div class="product">
+                                <div class="product-img">
+                                     <h4>Nuevo</h4>
+                                     <img src="imagenes/Profesor 333.jpg" alt=""> 
+                                </div>
+                                 <div class="product-txt"> 
+                                      <h4>Profesores</h4>
+                                      <p>Profesores especializados</p>
+                                      <span class="prefesor">Jesús Canales</span>
+                                 </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+
+                            <div class="product">
+                                <div class="product-img">
+                                     <h4>Nuevo</h4>
+                                     <img src="imagenes/profesor 444.jpg" alt=""> 
+                                </div>
+                                 <div class="product-txt"> 
+                                      <h4>Profesores</h4>
+                                      <p>Profesores especializados</p>
+                                      <span class="prefesor">Miguel Vargas</span>
+                                 </div>
+                            </div>
+                        </div>
+                        
+
+                    </div>
+
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div> 
+
+                </div>
+
+            </div>
+
+           
+            <input type="radio" name="tabs" id="tab2" checked="checked" class="tabInput" value="2">
+            <label for="tab2">¿Que aprenderas?</label>
+            
+            <div class="tab">
+                <div class="swiper mySwiper-2" id="swiper2">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+
+                            <div class="product">
+                                <div class="product-img">
+                                     <h4>Nuevo</h4>
+                                     <img src="imagenes/crear pagina web11.jpg" alt=""> 
+                                </div>
+                                 <div class="product-txt"> 
+                                      <h4>¿Que aprenderas?</h4>
+                                      <p>Crear Paginas Webs</p>
+                                      <span class="profesores">Te enseñaremos a crear tu propia pagina desde cero</span>
+                                 </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+
+                            <div class="product">
+                                <div class="product-img">
+                                     <h4>Nuevo</h4>
+                                     <img src="imagenes/coodificar1.jpeg" alt=""> 
+                                </div>
+                                 <div class="product-txt"> 
+                                      <h4>¿Que aprenderas?</h4>
+                                      <p>A coodificar codigos</p>
+                                      <span class="profesores">Te enseñaremos a coodificar los codigos</span>
+                                 </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+
+                            <div class="product">
+                                <div class="product-img">
+                                     <h4>Nuevo</h4>
+                                     <img src="imagenes/Lenguajes-scaled (1).jpg" alt=""> 
+                                </div>
+                                 <div class="product-txt"> 
+                                      <h4>¿Que aprenderas?</h4>
+                                      <p>Lenguaje de programacion</p>
+                                      <span class="profesores">Te enseñaremos todos los lenguajes de programacion</span>
+                                 </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+
+                            <div class="product">
+                                <div class="product-img">
+                                     <h4>Nuevo</h4>
+                                     <img src="imagenes/partes de la PC.jpg" alt=""> 
+                                </div>
+                                 <div class="product-txt"> 
+                                      <h4>¿Que aprenderas</h4>
+                                      <p>Partes de la PC</p>
+                                      <span class="profesores">Aprenderas a como es una PC por dentro</span>
+                                 </div>
+                            </div>
+                        </div>
+                        
+
+                    </div>
+
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div> 
+
+                </div>
+
+            </div>
+
+
+            <input type="radio" name="tabs" id="tab3" checked="checked" class="tabInput" value="3">
+            <label for="tab3">Apps utilizadas</label>
+            
+            <div class="tab">
+                <div class="swiper mySwiper-2" id="swiper3">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+
+                            <div class="product">
+                                <div class="product-img">
+                                     <h4>Nuevo</h4>
+                                     <img src="imagenes/Visual.png" alt=""> 
+                                </div>
+                                 <div class="product-txt"> 
+                                      <h4>Visual Studios</h4>
+                                      <p>Apps utilizadas</p>
+                                      <span class="price">Sabras usar el Visual Code Studios</span>
+                                 </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+
+                            <div class="product">
+                                <div class="product-img">
+                                     <h4>Nuevo</h4>
+                                     <img src="imagenes/python.jpg" alt=""> 
+                                </div>
+                                 <div class="product-txt"> 
+                                      <h4>Python</h4>
+                                      <p>Apps utilizadas</p>
+                                      <span class="price">Sabras usar Python</span>
+                                 </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+
+                            <div class="product">
+                                <div class="product-img">
+                                     <h4>Nuevo</h4>
+                                     <img src="imagenes/github.jpg" alt=""> 
+                                </div>
+                                 <div class="product-txt"> 
+                                      <h4>Github</h4>
+                                      <p>Enseñansa sobre el Github</p>
+                                      <span class="price">Sabras usar la pagina Github</span>
+                                 </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+
+                            <div class="product">
+                                <div class="product-img">
+                                     <h4>Nuevo</h4>
+                                     <img src="imagenes/google apps.png" alt=""> 
+                                </div>
+                                 <div class="product-txt"> 
+                                      <h4>App Script</h4>
+                                      <p>Usos de Apps Script</p>
+                                      <span class="price">Sabras usar Google Apps Script</span>
+                                 </div>
+                            </div>
+                        </div>
+                        
+
+                    </div>
+
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div> 
+
+                </div>
+
+            </div>
+
+
+
+        </div>
+    </main>
+
+     <section class="info container">
+
+        <div class="info-img">
+             <img src="imagenes/foto antiguia.jpeg" alt="">
+        </div>
+
+        <div class="info-txt">  
+             <h2>Desarrollo histórico</h2>
+             <p>
+                Han transcurrido casi 50 años de trabajo y continuamos con el mismo deseo, seguir contribuyendo con el bienestar de las familias de Cañete y Yauyo.
+             </p>
+             <a href="#" class="btn-2">Leer más</a>
+        </div>
+
+     </section>
+
+     <section class="horario">
+       <div class="horario-info container">
+              <h2>horario</h2>
+              <div class="horario-txt">
+                    <div class="txt">
+                         <h4>Direccion</h4>
+                         <p>
+                            San Vicente de Cañete, Lima, Perú.
+                         </p>
+                        
+                         <p>
+                            Apartado Postal 70.
+
+
+                        
+                         </p>
+                    </div>
+                    <div class="txt">
+                        <h4>Horario</h4>
+                        <p>
+                            Lunes a viernes: 8:00 am - 6:30
+                        </p>
+                        <h4></h4>
+                        <p>
+                            Sabado a domingo:  Libre - Libre
+                        </p>
+                   </div>
+                   <div class="txt">
+                    <h4>Gmail</h4>
+                    <p>
+                        informes@vallegrande.edu.pe www.vallegrande.edu.pe 
+                    </p>
+                    
+               </div>
+
+               <div class="txt">
+                <h4>Redes Sociales</h4>
+                <div class="socials">
+                    <a href="#">
+                        <div class="social">
+                            <img src="imagenes/s1.svg" alt="">
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="social">
+                            <img src="imagenes/s2.svg" alt="">
+                        </div>
+                    </a> 
+                    <a href="#">
+                        <div class="social">
+                            <img src="imagenes/s3.svg" alt="">
+                        </div>
+                    </a>                             
+                </div>
+           </div> 
+
+              </div>
+       </div>        
+     </section>
+
+     <section>
+
+        <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1291.4380336818615!2d-76.38815755566466!3d-13.081711831050297!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x910ff935c4a035bb%3A0x1b32f04916c31d1c!2sIES%20Valle%20Grande!5e1!3m2!1ses!2spe!4v1723207662580!5m2!1ses!2spe" width="100%" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+     </section>
+
+     <footer class="footer container">
+        <img class="logo-2" src="imagenes/logo111.png" alt="">
+        <div class="links">
+            <h4>Enlaces</h4>
+            <ul>
+                <li><a href="#"><a href="https://vallegrande.edu.pe/">Eva</a></a>
+                <li><a href="#"><a href="https://vallegrande.edu.pe/vg-laboral/">VG Laboral</a></a> 
+                <li><a href="#"><a href="https://vallegrande.edu.pe/oferta-academica/">Oferta Académica</a></a>
+                <li><a href="#"><a href="https://vallegrande.edu.pe/contacto/">Contacto</a></a>   
+            </ul>
+        </div>
+        <div class="links">
+            <h4>Nosotros</h4>
+            <ul>
+                <li><a href="#"><a href="https://vallegrande.edu.pe/nosotros/">Historia</a></a>
+                <li><a href="#"><a href="https://vallegrande.edu.pe/nosotros/mision-y-vision/">Misión y Visión</a></a> 
+                <li><a href="#"><a href="https://vallegrande.edu.pe/nosotros/identidad/">identidad</a></a>
+                <li><a href="#"><a href="https://vallegrande.edu.pe/nosotros/proyecto-educativo/">Proyecto Educativo</a></a>   
+            </ul>
+        </div>
+        <div class="links">
+            <h4>Contacto</h4>
+            <ul>
+                <li><a href="#">(01) 581-2261</a>
+                <li><a href="#">www.vallegrande.edu.pe</a> 
+                <li><a href="#">informes@vallegrande.edu.pe</a>
+                <li><a href="#">I.E.S. Valle Grande Panamericana Sur: Km. 144.5</a>   
+            </ul>
+        </div>
+        <div class="links">
+            <h4>Redes Sociales</h4>
+            <div class="socials">
+                <a href="#">
+                    <div class="social">
+                        <img src="imagenes/s1.svg" alt="">
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="social">
+                        <img src="imagenes/s2.svg" alt="">
+                    </div>
+                </a> 
+                <a href="#">
+                    <div class="social">
+                        <img src="imagenes/s3.svg" alt="">
+                    </div>
+                </a>                             
+            </div>
+        </div>
+     </footer>
+
+
+   
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+    <script src="script.js"></script>
+</body>
+</html>
